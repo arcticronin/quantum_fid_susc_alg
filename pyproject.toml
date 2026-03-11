@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fid_susc_alg"
+version = "0.1.0"
+description = "Fidelity Susceptibility and QFI computation with QSVT simulation."
+authors = [
+    {name = "Your Name", email = "your@email.com"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib"
+]

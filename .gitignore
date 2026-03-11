@@ -1,0 +1,11 @@
+fid_susc_alg/
+scripts/
+tests/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.env
+.venv
